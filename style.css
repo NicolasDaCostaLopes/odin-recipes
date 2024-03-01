@@ -1,0 +1,43 @@
+body{
+    background-color: antiquewhite;
+}
+.banner, .recipes-list, * {
+    text-align: center;
+    font-family: "Arial", "Georgia", "Garamond";
+}
+h2.banner{
+    font-size: 24px;
+}
+
+.banner, .name{
+    font-weight: bold;
+}
+.banner{
+    font-size: 48px;
+}
+.name{
+    font-size: 24px;
+}
+.recipes-list{
+    list-style: none;
+    padding: 0 0 0 0;
+}
+
+.small-picture{
+    height: auto;
+    width: 40%;
+
+}
+.container-recipes{
+    text-align: center;
+}
+.picture{
+    height: auto;
+    width: 70%;
+}
+.container-recipes > h3{
+    font-size: 32px;
+}
+.container-recipes .steps-list li{
+    text-align: left;
+}

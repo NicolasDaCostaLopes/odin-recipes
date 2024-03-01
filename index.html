@@ -3,13 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <title>Recipe Book</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-            <li><a href="./recipes/french-baguettes.html">French Baguettes</a></li>
-            <li><a href="./recipes/garlic-toast.html">Garlic Toast</a></li>
-            <li><a href="./recipes/meatball-sandwich.html">Meatball Sandwich</a></li>
+        <h1 class="banner">Odin Recipes</h1>
+        <ul class="recipes-list">
+            <li>
+                <div class="container-recipes">
+                    <a href="./recipes/french-baguettes.html">
+                        <img class="small-picture" src="./img/french-baguettes.webp" alt="French baguettes on a cutting board" >
+                        <p class="name">French Baguette</p>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="container-recipes">
+                    <a href="./recipes/garlic-toast.html">
+                        <img class="small-picture" src="./img/garlic-toast.webp" alt="Garlic toast with garlic cloves on top">
+                        <p class="name">Garlic Toast</p>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="container-recipes">
+                    <a href="./recipes/meatball-sandwich.html">
+                        <img class="small-picture" src="./img/meatball-sandwich.webp" alt="Meatball sandwich with provolone cheese">
+                        <p class="name">Meatball Sandwich</p>
+                    </a>
+                </div>
+            </li>
         </ul>
     </body>
 </html>
