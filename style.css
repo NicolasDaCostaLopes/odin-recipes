@@ -1,5 +1,10 @@
 body{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    margin: 0;
+}
+
+.container-banner{
+    background-color: rgb(218, 163, 118);
 }
 .banner, .recipes-list, * {
     text-align: center;
@@ -7,6 +12,11 @@ body{
 }
 h2.banner{
     font-size: 24px;
+
+}
+h2.top-banner{
+
+    background-color: bisque;
 }
 
 .banner, .name{
@@ -14,11 +24,15 @@ h2.banner{
 }
 .banner{
     font-size: 48px;
+    margin: 0;
 }
 .name{
     font-size: 24px;
+    margin: 0 0 0 0;
+
 }
 .recipes-list{
+    margin: 0;
     list-style: none;
     padding: 0 0 0 0;
 }
@@ -30,14 +44,31 @@ h2.banner{
 }
 .container-recipes{
     text-align: center;
+    padding-top: 32px;
+    border-top: 2px dotted black;
 }
 .picture{
     height: auto;
     width: 70%;
 }
-.container-recipes > h3{
+h3{
     font-size: 32px;
+    margin: 0;
 }
 .container-recipes .steps-list li{
     text-align: left;
+}
+.background-light{
+    background-color: rgb(245, 245, 245);
+}
+.background-dark{
+    background-color: rgb(230, 230, 230);
+}
+
+.container-recipes > div{
+    margin: 0;
+    padding: 20px 0;
+}
+.container-recipes > div > p{
+    margin: 0;
 }
